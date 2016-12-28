@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		615B68E21E125EFC004613F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 615B68E11E125EFC004613F4 /* main.m */; };
+		615B68E51E125EFC004613F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 615B68E41E125EFC004613F4 /* AppDelegate.m */; };
+		615B68E81E125EFC004613F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615B68E71E125EFC004613F4 /* ViewController.m */; };
+		615B68EB1E125EFC004613F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615B68E91E125EFC004613F4 /* Main.storyboard */; };
+		615B68ED1E125EFC004613F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B68EC1E125EFC004613F4 /* Assets.xcassets */; };
+		615B68F01E125EFC004613F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615B68EE1E125EFC004613F4 /* LaunchScreen.storyboard */; };
+		615B68FB1E125EFC004613F4 /* DFLDatePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615B68FA1E125EFC004613F4 /* DFLDatePickerViewTests.m */; };
+		615B69061E125EFC004613F4 /* DFLDatePickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615B69051E125EFC004613F4 /* DFLDatePickerViewUITests.m */; };
+		615B69151E125FCD004613F4 /* DFLDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 615B69141E125FCD004613F4 /* DFLDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615B68F71E125EFC004613F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615B68D51E125EFC004613F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615B68DC1E125EFC004613F4;
+			remoteInfo = DFLDatePickerView;
+		};
+		615B69021E125EFC004613F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 615B68D51E125EFC004613F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615B68DC1E125EFC004613F4;
+			remoteInfo = DFLDatePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		615B68DD1E125EFC004613F4 /* DFLDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFLDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615B68E11E125EFC004613F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		615B68E31E125EFC004613F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		615B68E41E125EFC004613F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		615B68E61E125EFC004613F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		615B68E71E125EFC004613F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		615B68EA1E125EFC004613F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		615B68EC1E125EFC004613F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615B68EF1E125EFC004613F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615B68F11E125EFC004613F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615B68F61E125EFC004613F4 /* DFLDatePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFLDatePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615B68FA1E125EFC004613F4 /* DFLDatePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLDatePickerViewTests.m; sourceTree = "<group>"; };
+		615B68FC1E125EFC004613F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615B69011E125EFC004613F4 /* DFLDatePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFLDatePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615B69051E125EFC004613F4 /* DFLDatePickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLDatePickerViewUITests.m; sourceTree = "<group>"; };
+		615B69071E125EFC004613F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615B69131E125FCD004613F4 /* DFLDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLDatePickerView.h; sourceTree = "<group>"; };
+		615B69141E125FCD004613F4 /* DFLDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615B68DA1E125EFC004613F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B68F31E125EFC004613F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B68FE1E125EFC004613F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615B68D41E125EFB004613F4 = {
+			isa = PBXGroup;
+			children = (
+				615B68DF1E125EFC004613F4 /* DFLDatePickerView */,
+				615B68F91E125EFC004613F4 /* DFLDatePickerViewTests */,
+				615B69041E125EFC004613F4 /* DFLDatePickerViewUITests */,
+				615B68DE1E125EFC004613F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		615B68DE1E125EFC004613F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615B68DD1E125EFC004613F4 /* DFLDatePickerView.app */,
+				615B68F61E125EFC004613F4 /* DFLDatePickerViewTests.xctest */,
+				615B69011E125EFC004613F4 /* DFLDatePickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615B68DF1E125EFC004613F4 /* DFLDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				615B68E31E125EFC004613F4 /* AppDelegate.h */,
+				615B68E41E125EFC004613F4 /* AppDelegate.m */,
+				615B68E61E125EFC004613F4 /* ViewController.h */,
+				615B68E71E125EFC004613F4 /* ViewController.m */,
+				615B69131E125FCD004613F4 /* DFLDatePickerView.h */,
+				615B69141E125FCD004613F4 /* DFLDatePickerView.m */,
+				615B68E91E125EFC004613F4 /* Main.storyboard */,
+				615B68EC1E125EFC004613F4 /* Assets.xcassets */,
+				615B68EE1E125EFC004613F4 /* LaunchScreen.storyboard */,
+				615B68F11E125EFC004613F4 /* Info.plist */,
+				615B68E01E125EFC004613F4 /* Supporting Files */,
+			);
+			path = DFLDatePickerView;
+			sourceTree = "<group>";
+		};
+		615B68E01E125EFC004613F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				615B68E11E125EFC004613F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		615B68F91E125EFC004613F4 /* DFLDatePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				615B68FA1E125EFC004613F4 /* DFLDatePickerViewTests.m */,
+				615B68FC1E125EFC004613F4 /* Info.plist */,
+			);
+			path = DFLDatePickerViewTests;
+			sourceTree = "<group>";
+		};
+		615B69041E125EFC004613F4 /* DFLDatePickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				615B69051E125EFC004613F4 /* DFLDatePickerViewUITests.m */,
+				615B69071E125EFC004613F4 /* Info.plist */,
+			);
+			path = DFLDatePickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615B68DC1E125EFC004613F4 /* DFLDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615B690A1E125EFC004613F4 /* Build configuration list for PBXNativeTarget "DFLDatePickerView" */;
+			buildPhases = (
+				615B68D91E125EFC004613F4 /* Sources */,
+				615B68DA1E125EFC004613F4 /* Frameworks */,
+				615B68DB1E125EFC004613F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFLDatePickerView;
+			productName = DFLDatePickerView;
+			productReference = 615B68DD1E125EFC004613F4 /* DFLDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615B68F51E125EFC004613F4 /* DFLDatePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615B690D1E125EFC004613F4 /* Build configuration list for PBXNativeTarget "DFLDatePickerViewTests" */;
+			buildPhases = (
+				615B68F21E125EFC004613F4 /* Sources */,
+				615B68F31E125EFC004613F4 /* Frameworks */,
+				615B68F41E125EFC004613F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615B68F81E125EFC004613F4 /* PBXTargetDependency */,
+			);
+			name = DFLDatePickerViewTests;
+			productName = DFLDatePickerViewTests;
+			productReference = 615B68F61E125EFC004613F4 /* DFLDatePickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		615B69001E125EFC004613F4 /* DFLDatePickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615B69101E125EFC004613F4 /* Build configuration list for PBXNativeTarget "DFLDatePickerViewUITests" */;
+			buildPhases = (
+				615B68FD1E125EFC004613F4 /* Sources */,
+				615B68FE1E125EFC004613F4 /* Frameworks */,
+				615B68FF1E125EFC004613F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615B69031E125EFC004613F4 /* PBXTargetDependency */,
+			);
+			name = DFLDatePickerViewUITests;
+			productName = DFLDatePickerViewUITests;
+			productReference = 615B69011E125EFC004613F4 /* DFLDatePickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		615B68D51E125EFC004613F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DFL;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DFL;
+				TargetAttributes = {
+					615B68DC1E125EFC004613F4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					615B68F51E125EFC004613F4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 615B68DC1E125EFC004613F4;
+					};
+					615B69001E125EFC004613F4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 615B68DC1E125EFC004613F4;
+					};
+				};
+			};
+			buildConfigurationList = 615B68D81E125EFC004613F4 /* Build configuration list for PBXProject "DFLDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 615B68D41E125EFB004613F4;
+			productRefGroup = 615B68DE1E125EFC004613F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615B68DC1E125EFC004613F4 /* DFLDatePickerView */,
+				615B68F51E125EFC004613F4 /* DFLDatePickerViewTests */,
+				615B69001E125EFC004613F4 /* DFLDatePickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615B68DB1E125EFC004613F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615B68F01E125EFC004613F4 /* LaunchScreen.storyboard in Resources */,
+				615B68ED1E125EFC004613F4 /* Assets.xcassets in Resources */,
+				615B68EB1E125EFC004613F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B68F41E125EFC004613F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B68FF1E125EFC004613F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615B68D91E125EFC004613F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615B68E81E125EFC004613F4 /* ViewController.m in Sources */,
+				615B68E51E125EFC004613F4 /* AppDelegate.m in Sources */,
+				615B68E21E125EFC004613F4 /* main.m in Sources */,
+				615B69151E125FCD004613F4 /* DFLDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B68F21E125EFC004613F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615B68FB1E125EFC004613F4 /* DFLDatePickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B68FD1E125EFC004613F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615B69061E125EFC004613F4 /* DFLDatePickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		615B68F81E125EFC004613F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615B68DC1E125EFC004613F4 /* DFLDatePickerView */;
+			targetProxy = 615B68F71E125EFC004613F4 /* PBXContainerItemProxy */;
+		};
+		615B69031E125EFC004613F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615B68DC1E125EFC004613F4 /* DFLDatePickerView */;
+			targetProxy = 615B69021E125EFC004613F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		615B68E91E125EFC004613F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615B68EA1E125EFC004613F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615B68EE1E125EFC004613F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615B68EF1E125EFC004613F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		615B69081E125EFC004613F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		615B69091E125EFC004613F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		615B690B1E125EFC004613F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFLDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		615B690C1E125EFC004613F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DFLDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		615B690E1E125EFC004613F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFLDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLDatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFLDatePickerView.app/DFLDatePickerView";
+			};
+			name = Debug;
+		};
+		615B690F1E125EFC004613F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFLDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLDatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFLDatePickerView.app/DFLDatePickerView";
+			};
+			name = Release;
+		};
+		615B69111E125EFC004613F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFLDatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLDatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFLDatePickerView;
+			};
+			name = Debug;
+		};
+		615B69121E125EFC004613F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFLDatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.020leader.ylpay.DFLDatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFLDatePickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615B68D81E125EFC004613F4 /* Build configuration list for PBXProject "DFLDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615B69081E125EFC004613F4 /* Debug */,
+				615B69091E125EFC004613F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		615B690A1E125EFC004613F4 /* Build configuration list for PBXNativeTarget "DFLDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615B690B1E125EFC004613F4 /* Debug */,
+				615B690C1E125EFC004613F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615B690D1E125EFC004613F4 /* Build configuration list for PBXNativeTarget "DFLDatePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615B690E1E125EFC004613F4 /* Debug */,
+				615B690F1E125EFC004613F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615B69101E125EFC004613F4 /* Build configuration list for PBXNativeTarget "DFLDatePickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615B69111E125EFC004613F4 /* Debug */,
+				615B69121E125EFC004613F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 615B68D51E125EFC004613F4 /* Project object */;
+}
